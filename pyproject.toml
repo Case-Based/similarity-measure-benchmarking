@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "similarity-measure-benchmarking"
+version = "0.1.0"
+description = "Benchmarking of similarity measure algorithms."
+authors = ["jonasliendl <57270170+jonasliendl@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+richbench = "^1.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
