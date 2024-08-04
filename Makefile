@@ -1,6 +1,6 @@
 .PHONY: benchmark
 benchmark:
-	richbench --percentage --repeat 3 benchmarks/
+	poetry run richbench --profile --percentage --markdown --repeat 10 ./
 
 .PHONY: test
 test:
