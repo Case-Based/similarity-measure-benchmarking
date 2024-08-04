@@ -15,4 +15,7 @@ EXPECTED_NEIGHBOURS = [[1, 2, 3], [2, 6, 10], [0.5, 1.2, 3.4]]
 
 def test_canberra_distance():
     for index, entry in enumerate(TEST_DATA):
-        assert round(calculate_distance(TEST_TARGET_ENTRY, entry), 2) == EXPECTED_DISTANCES[index]
+        assert (
+            round(calculate_distance(TEST_TARGET_ENTRY, entry), 2)
+            == EXPECTED_DISTANCES[index]
+        )
