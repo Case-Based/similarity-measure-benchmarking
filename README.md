@@ -12,7 +12,6 @@ These are selected similarity measure algorithms that will be benchmarked in thi
 - Chebychev Distance
 - Cosine Distance
 - Pearson Distance
-- Mahalanobis Distance
 - Canberra Distance
 
 ## Results
