@@ -10,13 +10,9 @@ These are selected similarity measure algorithms that will be benchmarked in thi
 - Squared Euclidian Distance
 - Manhatten Distance
 - Chebychev Distance
-- Minkowski Distance
 - Cosine Distance
 - Pearson Distance
 - Mahalanobis Distance
-- Levenshtein Distance
-- Hamming Distance
-- Spearman Distance
 - Canberra Distance
 
 ## Results
